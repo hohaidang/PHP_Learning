@@ -1,8 +1,9 @@
 import sys
 
-isDataProcessSucceed = True
+isDataProcessSucceed = False
 
 def main():
+    print("---Python---")
     if isDataProcessSucceed:
         return 0
     else:
