@@ -23,5 +23,12 @@ $smarty->assign('myOptions', array(
 ));
 $smarty->assign('mySelect', 9904);
 
+$smarty->assign('cust_radios', array(
+    1000 => 'Joe Schmoe',
+    1001 => 'Jack Smith',
+    1002 => 'Jane Johnson',
+    1003 => 'Charlie Brown'));
+$smarty->assign('customer_id', 1001);
+$smarty->assign('GoToFile', 'filecalled.php');
 
 $smarty->display('index.tpl');

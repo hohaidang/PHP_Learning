@@ -26,3 +26,13 @@ Hello
 </html>
 
 {html_options name="Dang" options=$myOptions selected=$mySelect}
+{html_radios name='id' options=$cust_radios
+selected=$customer_id separator='<br />'}
+
+<html>
+<body>
+<!-- regular submit button -->
+<form action="filecalled.php">
+    <input type="submit" />
+</form>
+</html>
