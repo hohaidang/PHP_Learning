@@ -11,3 +11,18 @@ Hello
     </tr>
 {/foreach}
 </table>
+
+<html>
+<head>
+    <title>Info</title>
+</head>
+<body>
+<pre>
+    User Information:
+    Name: {$name}
+    Address: {$address}
+</pre>
+</body>
+</html>
+
+{html_options name="Dang" options=$myOptions selected=$mySelect}
