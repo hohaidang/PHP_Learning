@@ -1,7 +1,5 @@
 Hello
 
-<br />
-
 
 <table>
 {foreach from=$people key=k item=p}
@@ -34,5 +32,24 @@ selected=$customer_id separator='<br />'}
 <!-- regular submit button -->
 <form action="filecalled.php">
     <input type="submit" />
+</form>
+</html>
+
+<html>
+{*<form action="index.php" method="post">*}
+{*    <p>*}
+{*        <label class="input1" for="text1">Familiy name</label>*}
+{*        <input id="text1" name="{$varname}" size="60" maxlength="60" class="required" />*}
+{*    </p>*}
+{*    <input type=submit />*}
+{*</form>*}
+
+{*Text Box and Summit Button*}
+<form action = "filecalled.php" method="post">
+    <p>
+        <label class="input1" for="text1">Familiy name</label>
+        <input id="text1" name="text1" value="{$varname}" size="60" maxlength="60" class="required" />
+    </p>
+    <input type=submit />
 </form>
 </html>

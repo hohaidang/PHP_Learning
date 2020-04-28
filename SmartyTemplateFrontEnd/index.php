@@ -31,4 +31,8 @@ $smarty->assign('cust_radios', array(
 $smarty->assign('customer_id', 1001);
 $smarty->assign('GoToFile', 'filecalled.php');
 
+//Text Box and Summit Button
+$smarty->assign('varname', 'Dang');
+
+
 $smarty->display('index.tpl');

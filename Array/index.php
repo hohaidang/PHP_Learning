@@ -45,11 +45,19 @@ $favorites = array(
             "StableOperation",
         ),
 );
-$data = [];
-foreach($favorites as $data)
-{
-    echo $data;
+//$data = [];
+//foreach($favorites as $data)
+//{
+//    echo $data;
+//}
+//$arr = array ('first' => 'a', 'second' => 'b', );
+//$key = array_search ('a', $arr); // find key in array
+//print_r ($favorites);
+
+$stringA = "123";
+if ($stringA == " 123") {
+    echo "String A = 123\n";
 }
-$arr = array ('first' => 'a', 'second' => 'b', );
-$key = array_search ('a', $arr); // find key in array
-print_r ($favorites);
+else{
+    echo "String A not equals 123\n";
+}
